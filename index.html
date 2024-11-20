@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOTING SYSTEM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VOTING SYSTEM</h1>
+        <div class="poll">
+            <h2>What is your favorite programming language?</h2>
+        </div>
+        <div class="options">
+            <div class="option">
+            
+                <input type="radio" name="poll" id="option1" value="option1">
+                <label for="option1">JavaScript</label>
+        </div>
+         <div class="option">
+            
+                <input type="radio" name="poll" id="option2" value="option2">
+                <label for="option2">Python</label>
+        </div>
+    </div>
+
+    <button onclick= "submitVotes()">Submit Vote</button>
+    <div id="result"></div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
